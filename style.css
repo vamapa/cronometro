@@ -25,6 +25,17 @@ body {
   margin: 0 auto;
 }
 
+.abas-textos {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto 0;
+}
+
 .titulo-principal {
   text-align: left;
   width: 100%;
@@ -58,16 +69,17 @@ body {
 .botoes {
   display: block;
 }
-.abas-textos{
-    background-color: var(--texto-fundo);
-    padding: 40px;
-    border-radius: 0 0 40px 40px;
+.aba-conteudo {
+  background-color: var(--texto-fundo);
+  padding: 30px;
+  border-radius: 40px;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   /* Código omitido */
 
   .botao:last-child {
-    border-radius: 0 40px 0 0;
+    border-radius: 0 0 0 0;
   }
 }
 .ativo {
